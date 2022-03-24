@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ImportFunction Mock Lambda",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": " ~/.dotnet/tools/.store/amazon.lambda.testtool-6.0/0.12.1/amazon.lambda.testtool-6.0/0.12.1/tools/net6.0/any/Amazon.Lambda.TestTool.BlazorTester.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/ParameterStoreFunction",
+      "console": "internalConsole",
+      "stopAtEntry": false,
+      "internalConsoleOptions": "openOnSessionStart",
+      "env": {
+        "STAGE": "test"
+      }
+    }
+  ]
+}
